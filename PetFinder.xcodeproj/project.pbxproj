@@ -13,6 +13,9 @@
 		0676C9011F55A26D00BA07A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0676C8FF1F55A26D00BA07A5 /* Main.storyboard */; };
 		0676C9031F55A26D00BA07A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0676C9021F55A26D00BA07A5 /* Assets.xcassets */; };
 		0676C9061F55A26D00BA07A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0676C9041F55A26D00BA07A5 /* LaunchScreen.storyboard */; };
+		0687952C1F57246200F8838A /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687952B1F57246200F8838A /* PetTableViewCell.swift */; };
+		0687952E1F57251000F8838A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687952D1F57251000F8838A /* Pet.swift */; };
+		068795301F572A0800F8838A /* defaultPet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0687952F1F572A0800F8838A /* defaultPet.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0676C9021F55A26D00BA07A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0676C9051F55A26D00BA07A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0676C9071F55A26D00BA07A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0687952B1F57246200F8838A /* PetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
+		0687952D1F57251000F8838A /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		0687952F1F572A0800F8838A /* defaultPet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = defaultPet.jpg; path = ../../../../Documents/defaultPet.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,10 @@
 				0676C8FB1F55A26D00BA07A5 /* FirstViewController.swift */,
 				0676C8FD1F55A26D00BA07A5 /* SecondViewController.swift */,
 				0676C8FF1F55A26D00BA07A5 /* Main.storyboard */,
+				0687952D1F57251000F8838A /* Pet.swift */,
+				0687952B1F57246200F8838A /* PetTableViewCell.swift */,
 				0676C9021F55A26D00BA07A5 /* Assets.xcassets */,
+				0687952F1F572A0800F8838A /* defaultPet.jpg */,
 				0676C9041F55A26D00BA07A5 /* LaunchScreen.storyboard */,
 				0676C9071F55A26D00BA07A5 /* Info.plist */,
 			);
@@ -128,6 +137,7 @@
 				0676C9061F55A26D00BA07A5 /* LaunchScreen.storyboard in Resources */,
 				0676C9031F55A26D00BA07A5 /* Assets.xcassets in Resources */,
 				0676C9011F55A26D00BA07A5 /* Main.storyboard in Resources */,
+				068795301F572A0800F8838A /* defaultPet.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0687952E1F57251000F8838A /* Pet.swift in Sources */,
 				0676C8FE1F55A26D00BA07A5 /* SecondViewController.swift in Sources */,
+				0687952C1F57246200F8838A /* PetTableViewCell.swift in Sources */,
 				0676C8FA1F55A26D00BA07A5 /* AppDelegate.swift in Sources */,
 				0676C8FC1F55A26D00BA07A5 /* FirstViewController.swift in Sources */,
 			);

@@ -10,16 +10,37 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var animal: UITextField!
+    @IBOutlet weak var location: UITextField!
+    
+    var animalString = ""
+    var locationString = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func search(_ sender: UIButton)
+    {
+        if let anim = animal.text
+        { animalString = anim }
+        if let zip = location.text
+        { locationString = zip }
+        
+        let destinationViewController = present
+        
+        
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? SecondViewController {
+            destination.animal = animalString
+            destination.location = locationString
+        }
+    }
+    
 
 }
 
